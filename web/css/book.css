@@ -1,0 +1,67 @@
+.table th{
+    background: #009ff0;
+    color: white;
+    text-align: center;  
+}
+.table th a{
+    color: white !important;
+}
+.table tr td:first-child{
+    text-align: center;
+}
+.table tr td:nth-child(5){
+    text-align: right;
+}
+.table tr td:last-child{
+    text-align: center;
+}
+.table tr td:last-child span{
+    padding:0 0.2rem;
+    color: #0089d7;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #009ff0;
+    border-color: #009ff0;
+}
+.pagination > li > a, .pagination > li > span {
+    border-radius: 0 !important;
+}
+.grid-view{
+    overflow: hidden;
+}
+.grid-view .pagination{
+    float: right;
+}
+.pagination > li > a{
+    border-right: 0;
+    color: #0089d7;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-right: 1px solid #ddd;
+}
+.querypanel{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+.querypanel .form-group{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.querypanel .form-control{
+    display: inline-block;
+    width: 200px;
+}
+.querypanel  .btn{
+    width: 120px;
+    height: 34px;
+    padding: 0;
+    line-height: 34px;
+    font-size: 18px;
+}
+.querypanel .help-block{
+    display: none;
+}
